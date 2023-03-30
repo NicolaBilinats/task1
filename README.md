@@ -19,6 +19,8 @@ https://onlinesim.ru/docs/api/ru/free/_info
 
 # task3
 
+В результате рефакторинга избавился от дублирования кода в функциях processRebootCommand и processOtherCommand и повысил читаемость кода путем удаления лишенго неиспользуемого и разбив его на более мелкие функции (Single responsebility :) ). 
+
 public class CommandProcessor {
 
     private ChannelHandlerContext ctx;
